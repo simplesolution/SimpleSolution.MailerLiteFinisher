@@ -1,0 +1,7 @@
+Neos:
+  Form:
+    presets:
+      default:
+        finisherPresets:
+          'SimpleSolution.MailerLiteFinisher:MailerLiteFinisher':
+            implementationClassName: SimpleSolution\MailerLiteFinisher\Finishers\MailerLiteFinisher

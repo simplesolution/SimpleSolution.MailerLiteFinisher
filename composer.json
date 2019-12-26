@@ -1,0 +1,29 @@
+{
+  "description": "A neos plugin that provides a form finisher to add a subscriber to the MailerLite newsletter software",
+  "type": "neos-plugin",
+  "name": "simplesolution/mailerlitefinisher",
+  "license": "MIT",
+  "keywords": [
+    "neos",
+    "neos-plugin",
+    "mailerlite",
+    "mailer lite",
+    "mailer lite api",
+    "neos mailerlite",
+    "neos mailer lite"
+  ],
+  "require": {
+    "neos/neos": ">=5.0",
+    "mailerlite/mailerlite-api-v2-php-sdk": "^0.2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "SimpleSolution\\MailerLiteFinisher\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "SimpleSolution.MailerLiteFinisher"
+    }
+  }
+}
